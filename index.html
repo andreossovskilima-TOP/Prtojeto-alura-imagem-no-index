@@ -4,44 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Aprendizado no Alura Start</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background-color: #111e38;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            border-radius: 8px;
-        }
-        main {
-            margin-top: 20px;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .container-imagem {
-            text-align: center;
-            margin: 20px 0;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-        .descricao-imagem {
-            font-style: italic;
-            color: #666;
-            margin-top: 8px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -59,12 +22,19 @@
         </p>
 
         <div class="container-imagem">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVQSmRim0lbdloSkB8xXrOHgh1GgeEhSOQgcHOwLfFw&s=10" alt="Logotipo da Alura - Plataforma de Tecnologia">
+            <img src="https://www.alura.com.br/assets/img/home/home-og.1738763321.png" alt="Logotipo da Alura - Plataforma de Tecnologia">
             <p class="descricao-imagem">
                 Logotipo oficial da Alura, representando a plataforma de aprendizado contínuo em tecnologia e programação usada no programa Alura Start.
             </p>
         </div>
+
+        <button id="btnMensagem" class="btn-interativo">Ver Mensagem Motivacional</button>
+        
+        <div id="mensagemSucesso" class="mensagem-oculta">
+            <p><strong>"O segredo para avançar é começar!"</strong> A tecnologia transforma realidades, continue a praticar e a criar os seus próprios projetos no Alura Start! 🚀</p>
+        </div>
     </main>
 
+    <script src="script.js"></script>
 </body>
 </html>
